@@ -1,8 +1,8 @@
-package timus;
+package timus.task_1293;
 
 import java.util.Scanner;
 
-public class task_1293 {
+public class Main {
 
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
@@ -19,8 +19,6 @@ public class task_1293 {
         int nanoSylf = amountPlates * (widthPlate * lenghtPlate) * 2;
 
         System.out.println("Требуется " + nanoSylf + " нанограмм сульфида");
-
-
     }
 
 }
