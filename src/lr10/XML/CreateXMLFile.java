@@ -38,15 +38,15 @@ public class CreateXMLFile {
             rootElement.appendChild(book2);
 
             Element title2 = doc.createElement("title");
-            title2.appendChild(doc.createTextNode("Война и мир"));
+            title2.appendChild(doc.createTextNode("Преступление и наказание"));
             book2.appendChild(title2);
 
             Element author2 = doc.createElement("author");
-            author2.appendChild(doc.createTextNode("Лев Толстой"));
+            author2.appendChild(doc.createTextNode("Федор Достоевский"));
             book2.appendChild(author2);
 
             Element year2 = doc.createElement("year");
-            year2.appendChild(doc.createTextNode("1869"));
+            year2.appendChild(doc.createTextNode("1866"));
             book2.appendChild(year2);
 
             doc.setXmlStandalone(true);
